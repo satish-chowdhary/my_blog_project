@@ -1,0 +1,7 @@
+{
+       "workbench.list.horizontalScrolling": true,
+       "files.autoSave": "afterDelay",
+       "files.autoSaveDelay": 1,
+       "workbench.settings.editor": "json",
+       "workbench.settings.useSplitJSON": true
+}
