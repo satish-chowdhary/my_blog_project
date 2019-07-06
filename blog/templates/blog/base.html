@@ -1,11 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>{% block title %} {% end block %}</title>
-    <link href="{% static "css/blog.css" %}" href="">
+    <link href="{% static "css/blog.css" %}" rel="stylesheet">
 </head>
 <body>
-    
+    <div id = "content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div>
+        <h2>My Blog</h2>
+        <p>This my blog</p>
+    </div>
 </body>
 </html>
 
