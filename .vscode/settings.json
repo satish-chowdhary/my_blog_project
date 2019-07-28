@@ -1,7 +1,8 @@
 {
        "workbench.list.horizontalScrolling": true,
-       "files.autoSave": "afterDelay",
+       // "files.autoSave": "afterDelay",
        "files.autoSaveDelay": 1,
+       "emmet.triggerExpansionOnTab": true,
        "workbench.settings.editor": "json",
        "workbench.settings.useSplitJSON": true
 }
